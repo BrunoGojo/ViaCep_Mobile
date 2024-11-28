@@ -9,6 +9,6 @@ interface ServiceApi {
     @GET("{cep}/json/")
     suspend fun getAddress(
         @Path("cep") cep: String
-    ): AddressResponse
+    ): AddressRespons
 
 }
